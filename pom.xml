@@ -28,13 +28,14 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://54.172.97.14:8081/repository/batch12-snapshots/</url>
+		    <url>http://54.173.4.83:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://54.172.97.14:8081/repository/batch12-release/</url>
+		    <url>http://54.173.4.83:8081/repository/maven-releases/</url>
 		</repository>
+  	
   	</distributionManagement>
 	
 	<pluginRepositories>
